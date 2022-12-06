@@ -1,0 +1,17 @@
+s = set([10, 9])
+s.add(2)
+s.add(7)
+s.add(3)
+s.remove(3)
+print("Max is =",max(s))
+print("Min is =",min(s))
+print("length of s is =",len(s))
+print("s =",s)
+
+s_from_list = set([1, 2, 3, 4])
+print("s_from_list =",s_from_list)
+
+s1= s.intersection(s_from_list)
+s2= s.union(s_from_list)
+print( "Intersection of s and s_from_list is =",s1)
+print( "Union of s and s_from_list is =",s2)
